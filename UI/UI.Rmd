@@ -1,5 +1,5 @@
 ---
-drake_cache: ".myHtml"
+drake_cache: ".myHtml1"
 ---
 
 ## Materialise Framework
@@ -49,12 +49,12 @@ bodyTags <- {
   htmltools::tagList(
     tags$main(
       tags$h5(class="center-align",
-      "ã€–Titleã€—")
+      "?€–Title?€?")
     ),
     tags$div(class="container",
              tags$div(class="row",
                       tags$div(class="col s3",
-                        tags$h5(class="center-align", "ã€–sidebar panelã€—")),
+                        tags$h5(class="center-align", "?€–sidebar panel?€?")),
                       tags$div(class="col s9",
                                plt_gg_bikeRouteStm)
                       ))
