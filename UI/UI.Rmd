@@ -49,12 +49,12 @@ bodyTags <- {
   htmltools::tagList(
     tags$main(
       tags$h5(class="center-align",
-      "?€–Title?€?")
+      "Title")
     ),
     tags$div(class="container",
              tags$div(class="row",
                       tags$div(class="col s3",
-                        tags$h5(class="center-align", "?€–sidebar panel?€?")),
+                        tags$h5(class="center-align", "Slidebar panel")),
                       tags$div(class="col s9",
                                plt_gg_bikeRouteStm)
                       ))
